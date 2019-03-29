@@ -12,3 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1 {
+  color: white;
+  background-color: #41576b;
+  height: 150px;
+  font-family: URW Gothic L, sans-serif; 
+  text-align: center;
+  padding: 35px 70px 35px 70px;
+  margin: auto;
+} 
+
+/* .heading {
+  height: 150px;
+  font-family: URW Gothic L, sans-serif; 
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px 70px 35px 70px;
+  margin: auto;
+} */
+
+
+/* font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff'); */
