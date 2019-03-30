@@ -4,6 +4,7 @@ import './index.css';
 import Card from './Card';
 import CardList from './CardList';
 import InputBox from './InputBox';
+import Icons from './Icons'
 import { thinking } from './thinking';
 import styled from 'styled-components';
 
@@ -12,17 +13,17 @@ class App extends React.Component {
 
   render(){
     return (
-      
+
         <div className ='tc'>
           <div className = 'heading'>
             <h1>WUTS YUR Problem?</h1>
-          </div>  
+          </div>
             <Stripe/>
             <Stripe1/>
             <InputBox />
-            <CardList thinking ={thinking} />
+            <Icons />
         </div>
-       
+
     );
   }
 
