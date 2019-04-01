@@ -25,26 +25,30 @@ class Icons extends React.Component {
 
     return (
       <div>
-        <button type = 'button' id = '0' onClick = {this.clickHandler}>Point of View</button>
-        <button type = 'button' id = '1' onClick = {this.clickHandler}>Purpose</button>
-        <button type = 'button' id = '2' onClick = {this.clickHandler}>Questions</button>
-        <button type = 'button' id = '3' onClick = {this.clickHandler}>Assumptions</button>
-        <button type = 'button' id = '4' onClick = {this.clickHandler}>Consequences</button>
-        <button type = 'button' id = '5' onClick = {this.clickHandler}>Information</button>
-        <button type = 'button' id = '6' onClick = {this.clickHandler}>Concepts</button>
-        <button type = 'button' id = '7' onClick = {this.clickHandler}>Conclusions</button>
+        
+        <LargeWrapper>
+          <Wrapper type = 'button' id = '0' onClick = {this.clickHandler}>Point of View</Wrapper>
+          <Wrapper type = 'button' id = '1' onClick = {this.clickHandler}>Purpose</Wrapper>
+          <Wrapper type = 'button' id = '2' onClick = {this.clickHandler}>Questions</Wrapper>
+          <Wrapper type = 'button' id = '3' onClick = {this.clickHandler}>Assumptions</Wrapper>
+          <Wrapper type = 'button' id = '4' onClick = {this.clickHandler}>Consequences</Wrapper>
+          <Wrapper type = 'button' id = '5' onClick = {this.clickHandler}>Information</Wrapper>
+          <Wrapper type = 'button' id = '6' onClick = {this.clickHandler}>Concepts</Wrapper>
+          <Wrapper type = 'button' id = '7' onClick = {this.clickHandler}>Conclusions</Wrapper>
+        </LargeWrapper>
+
         <div>
-        {/*if the state.name is not an empty string, then display the card*/}
-        {this.state.name !== '' ?
-              <Card key={i}
-                id={thinking[i].id}
-                point={thinking[i].point}
-                bullet1={thinking[i].bullet1}
-                bullet2={thinking[i].bullet2}
-                bullet3={thinking[i].bullet3}
-                bullet4={thinking[i].bullet4}/>
-              : null}
-      </div>
+          {/*if the state.name is not an empty string, then display the card*/}
+          {this.state.name !== '' ?
+                <Card key={i}
+                  id={thinking[i].id}
+                  point={thinking[i].point}
+                  bullet1={thinking[i].bullet1}
+                  bullet2={thinking[i].bullet2}
+                  bullet3={thinking[i].bullet3}
+                  bullet4={thinking[i].bullet4}/>
+                : null}
+        </div>
 
       </div>
 
@@ -57,18 +61,23 @@ class Icons extends React.Component {
 
 export default Icons
 
-const Button = styled.button`
-  display:  block;
-  background-color: #bbb;
+const Wrapper = styled.button`
+  display:  inline-block;
+  background-color: #717171;
   color:  white;
-  border: none;
-  width:  25%;
+  font-size: 19px;
+  width:185px;
+  border-radius: .5rem;
   padding: 1.25rem 1rem;
-  box-sizing: border-box;
-  border-radius:  0.25rem;
   text-transform: uppercase;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
-  margin: 1rem 0.5rem;  
-  margin-left:auto;
-  margin-right:auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  margin-left: 6px;
+  margin-right: 6px;
   `;
+
+const LargeWrapper = styled.div`
+  position: relative;   
+  top: -240px; 
+  margin-left: 10px;
+  margin-right: 10px;
+ `;

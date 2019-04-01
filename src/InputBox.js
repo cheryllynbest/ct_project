@@ -26,7 +26,7 @@ class InputBox extends React.Component {
  }
  render(){
    return (
-     <div>
+     <Wrapper1>
         <Input
           className = 'input'
           type = 'text'
@@ -43,13 +43,20 @@ class InputBox extends React.Component {
              Submit
        </Button>
        <h1 className = 'userProblem'>{this.state.userSubmit}</h1>
-     </div>
+     </Wrapper1>
    )
  }
 }
 export default InputBox
 
+const Wrapper1 = styled.div`
+  position: relative;   
+  top: -260px; 
+`;
+
 const Input = styled.input`
+  position: relative; 
+  font-size: 22px;
   display:  block;
   text-align: center;
   width:  75%;
@@ -63,6 +70,8 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
+  position: relative;
+  font-size: 22px;
   display:  block;
   background-color: #bbb;
   color:  white;
