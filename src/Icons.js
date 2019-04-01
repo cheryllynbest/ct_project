@@ -41,7 +41,8 @@ class Icons extends React.Component {
                 point={thinking[i].point}
                 bullet1={thinking[i].bullet1}
                 bullet2={thinking[i].bullet2}
-                bullet3={thinking[i].bullet3}/>
+                bullet3={thinking[i].bullet3}
+                bullet4={thinking[i].bullet4}/>
               : null}
       </div>
 

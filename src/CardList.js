@@ -15,6 +15,7 @@ const CardList = ( {thinking} ) => {
 			bullet1={thinking[i].bullet1} 
 			bullet2={thinking[i].bullet2} 
 			bullet3={thinking[i].bullet3}
+			bullet4={thinking[i].bullet4}
 			
 			/>
 			);
