@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = ( { point, bullet1, bullet2, bullet3 } ) => {
+const Card = ( { point, bullet1, bullet2, bullet3, bullet4 } ) => {
 	
 	return (
 		<Container>
@@ -12,6 +12,7 @@ const Card = ( { point, bullet1, bullet2, bullet3 } ) => {
 					<p> { bullet1 } </p>
 					<p> { bullet2 } </p>
 					<p> { bullet3 } </p>
+					<p> { bullet4 } </p>
 				</div>
 			</div>
 		</Container>	
