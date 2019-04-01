@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card';
+import CardList from './CardList';
 import InputBox from './InputBox';
 import Icons from './Icons'
 import { thinking } from './thinking';
@@ -15,14 +16,12 @@ class App extends React.Component {
 
         <div className ='tc'>
           <div className = 'heading'>
-            <Title>WUTS YUR Problem?</Title>
+            <h1>WUTS YUR Problem?</h1>
           </div>
             <Stripe/>
             <Stripe1/>
-           
+            <InputBox />
             <Icons />
-          
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
 
     );
@@ -31,17 +30,6 @@ class App extends React.Component {
 }
 
 export default App
-
-const Title = styled.div`
-  color: white;
-  background-color: #41576b;
-  height: 200px;
-  font-family: URW Gothic L, sans-serif;
-  font-size: 50px; 
-  text-align: center;
-  padding: 35px 70px 35px 70px;
-  margin: auto;
-`;
 
 const Stripe = styled.div`
     height: 35vh;

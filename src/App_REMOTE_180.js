@@ -15,8 +15,14 @@ class App extends React.Component {
 
         <div className ='tc'>
           <div className = 'heading'>
-            <Title>WUTS YUR Problem?</Title>
-          </div>
+            <h1>WUTS YUR Problem?</h1>
+            <p>"Critical Thinking means correct thinking in the pursuit of relevant and
+				reliable knowledge about the world." </p>
+
+				<br/><br/><br/>
+           </div>
+
+            <InputBox />
             <Stripe/>
             <Stripe1/>
            
@@ -31,17 +37,6 @@ class App extends React.Component {
 }
 
 export default App
-
-const Title = styled.div`
-  color: white;
-  background-color: #41576b;
-  height: 200px;
-  font-family: URW Gothic L, sans-serif;
-  font-size: 50px; 
-  text-align: center;
-  padding: 35px 70px 35px 70px;
-  margin: auto;
-`;
 
 const Stripe = styled.div`
     height: 35vh;

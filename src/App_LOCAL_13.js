@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card';
+import CardList from './CardList';
 import InputBox from './InputBox';
 import Icons from './Icons'
 import { thinking } from './thinking';
@@ -19,10 +20,8 @@ class App extends React.Component {
           </div>
             <Stripe/>
             <Stripe1/>
-           
+            <InputBox />
             <Icons />
-          
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
 
     );
