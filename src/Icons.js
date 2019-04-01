@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
-import CardList from './CardList'
 import { thinking } from './thinking';
+import styled from 'styled-components';
 
 class Icons extends React.Component {
   state = {
@@ -54,4 +54,21 @@ class Icons extends React.Component {
 }
 
 
+
 export default Icons
+
+const Button = styled.button`
+  display:  block;
+  background-color: #bbb;
+  color:  white;
+  border: none;
+  width:  25%;
+  padding: 1.25rem 1rem;
+  box-sizing: border-box;
+  border-radius:  0.25rem;
+  text-transform: uppercase;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  margin: 1rem 0.5rem;  
+  margin-left:auto;
+  margin-right:auto;
+  `;
