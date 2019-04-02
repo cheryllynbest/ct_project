@@ -9,7 +9,6 @@ const Card = ( { point, bullet1, bullet2, bullet3, bullet4 } ) => {
 				<img alt= 'photo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png' />
 			</QuestionMark>	
 
-
 			<AwesomeText>
 				<h2> { point }</h2>
 				<p> { bullet1 } </p>

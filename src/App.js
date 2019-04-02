@@ -17,15 +17,24 @@ class App extends React.Component {
           
           <Title>THINK ABOUT THINKING</Title>
          
-
           <RightPanelBox>
             <p>"Critical Thinking means correct thinking in the pursuit of relevant and reliable knowledge about the world." 
             </p>
           </RightPanelBox>
 
+          <LeftPanelBox>
+            <p>1. 8 Elements of Thought</p>
+            <p>2. Intellectual Standards</p>
+            <p>3. Intellectual Traits </p>
+          </LeftPanelBox>
+
+          <br/><br/><br/>
+
           <Stripe/>
           <Stripe1/>
+          <br/><br/><br/>
           <InputBox />     
+
            
           <Icons />
           
@@ -75,6 +84,31 @@ const RightPanelBox = styled.div`
 	margin-right: 50px;
 	margin-top: 20Px;
 `;
+
+const LeftPanelBox = styled.div`
+  position: relative;   
+  top: -30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-style: normal; 
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 34px;
+  font-color: white;
+  letter-spacing: 3px;
+  word-spacing: 3.8px;
+  text-align: Left;
+  float: left;
+  width: 700px ;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px 10px 10px;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 20Px;
+`;
+
 
 const Stripe = styled.div`
     height: 33vh;
