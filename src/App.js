@@ -16,8 +16,7 @@ class App extends React.Component {
         <div>
           
           <Title>THINK ABOUT THINKING</Title>
-          
-          
+         
 
           <RightPanelBox>
             <p>"Critical Thinking means correct thinking in the pursuit of relevant and reliable knowledge about the world." 
