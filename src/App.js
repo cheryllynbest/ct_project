@@ -15,7 +15,7 @@ class App extends React.Component {
 
         <div>
           
-          <Title>What's Your Problem?</Title>
+          <Title>THINK ABOUT THINKING</Title>
           
           
 
@@ -42,10 +42,12 @@ class App extends React.Component {
 export default App
 
 const Title = styled.div`
+   position: relative;   
   color: #FFFFFF;
   background-color: #41576b;
   height: 160px;
-  font-family: Bradley Hand, cursive;
+  font-family: 'Corben', cursive; 
+  font-weight: 700;
   font-size: 75px; 
   font-stretch: extra-expanded;
   text-align: center;
@@ -56,7 +58,7 @@ const Title = styled.div`
 const RightPanelBox = styled.div`
   position: relative;   
   top: -30px;
-  font-family: "Brush Script MT";
+  font-family: 'Satisfy', cursive;
   font-style: normal; 
   font-variant: normal;
   font-weight: 400;
