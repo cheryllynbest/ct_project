@@ -57,8 +57,6 @@ class Icons extends React.Component {
 
 }
 
-
-
 export default Icons
 
 const Wrapper = styled.button`

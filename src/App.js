@@ -20,8 +20,7 @@ class App extends React.Component {
           
 
           <RightPanelBox>
-            <p>"Critical Thinking  
-            Correct thinking in the pursuit of relevant and reliable knowledge about the world." 
+            <p>"Critical Thinking means correct thinking in the pursuit of relevant and reliable knowledge about the world." 
             </p>
           </RightPanelBox>
 
@@ -44,7 +43,6 @@ export default App
 
 const Title = styled.div`
   color: #FFFFFF;
-  opacity: 1.0;
   background-color: #41576b;
   height: 160px;
   font-family: Bradley Hand, cursive;
@@ -67,7 +65,6 @@ const RightPanelBox = styled.div`
   letter-spacing: 3px;
   word-spacing: 3.8px;
   text-align: center;
-  position: relative;
   float: right;
 	width: 700px ;
 	height: auto;

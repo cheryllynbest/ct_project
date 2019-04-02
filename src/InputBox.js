@@ -59,6 +59,7 @@ const Input = styled.input`
   font-size: 22px;
   display:  block;
   text-align: center;
+  color: #C1C1C1;
   width:  75%;
   margin-bottom: 1rem;  
   margin-left:auto;

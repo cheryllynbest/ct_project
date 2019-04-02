@@ -9,13 +9,14 @@ const Card = ( { point, bullet1, bullet2, bullet3, bullet4 } ) => {
 				<img alt= 'photo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Replacement_character.svg/220px-Replacement_character.svg.png' />
 			</QuestionMark>	
 
-				<AwesomeText>
-					<h2> { point } </h2>
-					<p> { bullet1 } </p>
-					<p> { bullet2 } </p>
-					<p> { bullet3 } </p>
-					<p> { bullet4 } </p>
-				</AwesomeText>
+
+			<AwesomeText>
+				<h2> { point }</h2>
+				<p> { bullet1 } </p>
+				<p> { bullet2 } </p>
+				<p> { bullet3 } </p>
+				<p> { bullet4 } </p>
+			</AwesomeText>
 
 		</div>	
 	)
@@ -23,21 +24,31 @@ const Card = ( { point, bullet1, bullet2, bullet3, bullet4 } ) => {
 
 export default Card
 
-
-{/* <div className='tc bg-light-yellow dib br3 ma2 grow bw2 shadow5'> */}
-// the above used to show the cards yellow
-
 const QuestionMark = styled.div`
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	width: auto;
-	align-content: center;
 	position: relative;   
-	top: -200px; 
+	float: left;
+	top: -200px;
+	width: 650px;
+	height: auto;
+	text-align: center;
+  
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	/* margin-left: auto;
+	margin-right: 50px;
+	margin-top: 20Px; */
 `;
 
 const AwesomeText = styled.div`
 	position: relative;   
-	top: -100px;
+	top: -200px;
+	float: right;
+	width: 650px;
+	height: auto;
+
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	/* margin-left: auto;
+	margin-right: 50px;
+	margin-top: 20Px; */
 `;
