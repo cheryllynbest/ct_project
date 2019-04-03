@@ -63,8 +63,8 @@ const Wrapper = styled.button`
   display:  inline-block;
   background-color: #717171;
   color:  white;
-  font-size: 19px;
-  width:185px;
+  font-size: 17px;
+  width:  182px;
   border-radius: .5rem;
   padding: 1.25rem 1rem;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ const Wrapper = styled.button`
 
 const LargeWrapper = styled.div`
   position: relative;   
-  top: -240px; 
-  margin-left: 10px;
-  margin-right: 10px;
+  top: -390px; 
+  font-family: 'Questa', cursive;
+  margin-left: 33px;
  `;
