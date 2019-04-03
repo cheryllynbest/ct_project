@@ -63,6 +63,7 @@ const Wrapper1 = styled.div`
 const Input = styled.input`
   position: relative; 
   font-size: 20px;
+  /* font-family: 'Questa', cursive; */
   display:  block;
   text-align: center;
   color: #D3D3D3;
@@ -79,6 +80,7 @@ const Input = styled.input`
 const Button = styled.button`
   position: relative;
   font-size: 20px;
+  /* font-family: 'Questa', cursive; */
   display:  block;
   background-color: #bbb;
   color:  white;
@@ -96,6 +98,7 @@ const Button = styled.button`
 
   const UserProblem = styled.h1`
     position: relative; 
+    /* font-family: 'Questa', cursive; */
     font-size: 35px;
     display:  block;
     text-align: center;

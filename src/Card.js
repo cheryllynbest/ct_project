@@ -39,7 +39,7 @@ const AwesomeText = styled.div`
 	width: 900px;
 	height: 250px;
 	text-align: left;
-	font-family: 'Questa', cursive;
+	/* font-family: 'Questa', cursive; */
   	font-size: 18px;
   	color: black;
 `;

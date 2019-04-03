@@ -76,6 +76,6 @@ const Wrapper = styled.button`
 const LargeWrapper = styled.div`
   position: relative;   
   top: -390px; 
-  font-family: 'Questa', cursive;
+  /* font-family: 'Questa', cursive; */
   margin-left: 33px;
  `;

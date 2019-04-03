@@ -22,11 +22,11 @@ class App extends React.Component {
             "Critical Thinking means correct thinking in the pursuit of relevant and reliable knowledge about the world." 
           </RightPanelBox>
 
-          <LeftPanelBox>
+          {/* <LeftPanelBox>
             <p>8 Elements of Thought</p>
             <p>Intellectual Standards</p>
             <p>Intellectual Traits</p>
-          </LeftPanelBox>
+          </LeftPanelBox> */}
 
           <br/><br/>
 
@@ -95,7 +95,7 @@ const RightPanelBox = styled.div`
 
 const LeftPanelBox = styled.div`
   position: relative;   
-  font-family: 'Questa', cursive;
+  /* font-family: 'Questa', cursive; */
   font-size: 35px;
   color: black;
   text-align: center;
